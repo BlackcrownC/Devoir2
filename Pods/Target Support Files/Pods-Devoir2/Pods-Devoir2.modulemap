@@ -1,0 +1,6 @@
+module Pods_Devoir2 {
+  umbrella header "Pods-Devoir2-umbrella.h"
+
+  export *
+  module * { export * }
+}

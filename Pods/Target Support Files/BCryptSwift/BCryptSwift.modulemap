@@ -1,0 +1,6 @@
+module BCryptSwift {
+  umbrella header "BCryptSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
