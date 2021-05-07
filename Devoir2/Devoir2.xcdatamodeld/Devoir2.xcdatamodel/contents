@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Favorite" representedClassName="Favorite" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <relationship name="roads" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Road"/>
+    </entity>
+    <entity name="Road" representedClassName="Road" syncable="YES">
+        <attribute name="audio" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Sector" representedClassName="Sector" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="roads" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Road"/>
+    </entity>
+    <elements>
+        <element name="Favorite" positionX="141.5" positionY="-4.5" width="128" height="59"/>
+        <element name="Road" positionX="-54" positionY="0" width="128" height="59"/>
+        <element name="Sector" positionX="-250" positionY="3" width="128" height="73"/>
+    </elements>
 </model>

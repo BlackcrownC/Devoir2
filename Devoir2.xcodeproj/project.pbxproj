@@ -14,9 +14,24 @@
 		381E3C70263F4047006B035C /* Devoir2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 381E3C6E263F4047006B035C /* Devoir2.xcdatamodeld */; };
 		381E3C72263F4049006B035C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381E3C71263F4049006B035C /* Assets.xcassets */; };
 		381E3C75263F4049006B035C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381E3C73263F4049006B035C /* LaunchScreen.storyboard */; };
+		383BA0DF2643C1E90042A6A8 /* RoadsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0DE2643C1E90042A6A8 /* RoadsTableViewController.swift */; };
+		383BA0E12643C1F90042A6A8 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0E02643C1F90042A6A8 /* FavoritesTableViewController.swift */; };
+		383BA0E726446C620042A6A8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383BA0E626446C620042A6A8 /* AVFoundation.framework */; };
+		383BA0F02644DBDC0042A6A8 /* 01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 383BA0EF2644DBDC0042A6A8 /* 01.wav */; };
+		383BA0F22644DBEA0042A6A8 /* 02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 383BA0F12644DBEA0042A6A8 /* 02.wav */; };
+		383BA0F92644DCD90042A6A8 /* Road+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0F32644DCD90042A6A8 /* Road+CoreDataProperties.swift */; };
+		383BA0FA2644DCD90042A6A8 /* Road+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0F42644DCD90042A6A8 /* Road+CoreDataClass.swift */; };
+		383BA0FB2644DCD90042A6A8 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0F52644DCD90042A6A8 /* Favorite+CoreDataProperties.swift */; };
+		383BA0FC2644DCD90042A6A8 /* Sector+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0F62644DCD90042A6A8 /* Sector+CoreDataClass.swift */; };
+		383BA0FD2644DCD90042A6A8 /* Favorite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0F72644DCD90042A6A8 /* Favorite+CoreDataClass.swift */; };
+		383BA0FE2644DCD90042A6A8 /* Sector+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383BA0F82644DCD90042A6A8 /* Sector+CoreDataProperties.swift */; };
 		384915C92640EDFF006BA17D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384915C82640EDFF006BA17D /* SignUpViewController.swift */; };
 		384915CB26424BDE006BA17D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 384915CA26424BDE006BA17D /* Podfile */; };
 		384915CD2642512E006BA17D /* UTIL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384915CC2642512E006BA17D /* UTIL.swift */; };
+		384915D026432CCE006BA17D /* DbContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384915CF26432CCE006BA17D /* DbContext.swift */; };
+		384915E326433010006BA17D /* SectorDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384915E226433010006BA17D /* SectorDAO.swift */; };
+		384915E526439107006BA17D /* FavoriteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384915E426439107006BA17D /* FavoriteDAO.swift */; };
+		3849163D2643AE39006BA17D /* SectorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3849163C2643AE39006BA17D /* SectorsTableViewController.swift */; };
 		86C2AC42BC536BFE53EC4D9A /* libPods-Devoir2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF495108FCFC3552615303B /* libPods-Devoir2.a */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +45,24 @@
 		381E3C71263F4049006B035C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381E3C74263F4049006B035C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		381E3C76263F4049006B035C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383BA0DE2643C1E90042A6A8 /* RoadsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsTableViewController.swift; sourceTree = "<group>"; };
+		383BA0E02643C1F90042A6A8 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		383BA0E626446C620042A6A8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		383BA0EF2644DBDC0042A6A8 /* 01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 01.wav; sourceTree = "<group>"; };
+		383BA0F12644DBEA0042A6A8 /* 02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 02.wav; sourceTree = "<group>"; };
+		383BA0F32644DCD90042A6A8 /* Road+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Road+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		383BA0F42644DCD90042A6A8 /* Road+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Road+CoreDataClass.swift"; sourceTree = "<group>"; };
+		383BA0F52644DCD90042A6A8 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		383BA0F62644DCD90042A6A8 /* Sector+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sector+CoreDataClass.swift"; sourceTree = "<group>"; };
+		383BA0F72644DCD90042A6A8 /* Favorite+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataClass.swift"; sourceTree = "<group>"; };
+		383BA0F82644DCD90042A6A8 /* Sector+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sector+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		384915C82640EDFF006BA17D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		384915CA26424BDE006BA17D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		384915CC2642512E006BA17D /* UTIL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTIL.swift; sourceTree = "<group>"; };
+		384915CF26432CCE006BA17D /* DbContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DbContext.swift; sourceTree = "<group>"; };
+		384915E226433010006BA17D /* SectorDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorDAO.swift; sourceTree = "<group>"; };
+		384915E426439107006BA17D /* FavoriteDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDAO.swift; sourceTree = "<group>"; };
+		3849163C2643AE39006BA17D /* SectorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectorsTableViewController.swift; sourceTree = "<group>"; };
 		6EF495108FCFC3552615303B /* libPods-Devoir2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Devoir2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C509A23578D3A77689294C /* Pods-Devoir2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Devoir2.release.xcconfig"; path = "Target Support Files/Pods-Devoir2/Pods-Devoir2.release.xcconfig"; sourceTree = "<group>"; };
 		D8E9A534EE21F0E102E72973 /* Pods-Devoir2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Devoir2.debug.xcconfig"; path = "Target Support Files/Pods-Devoir2/Pods-Devoir2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383BA0E726446C620042A6A8 /* AVFoundation.framework in Frameworks */,
 				86C2AC42BC536BFE53EC4D9A /* libPods-Devoir2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +112,9 @@
 		381E3C64263F4047006B035C /* Devoir2 */ = {
 			isa = PBXGroup;
 			children = (
+				383BA0E826446C790042A6A8 /* Sounds */,
+				384915D126432F71006BA17D /* Entities */,
+				384915CE26432CBA006BA17D /* DAO */,
 				384915C72640ED47006BA17D /* Controllers */,
 				381E3C65263F4047006B035C /* AppDelegate.swift */,
 				381E3C67263F4047006B035C /* SceneDelegate.swift */,
@@ -94,18 +128,54 @@
 			path = Devoir2;
 			sourceTree = "<group>";
 		};
+		383BA0E826446C790042A6A8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				383BA0EF2644DBDC0042A6A8 /* 01.wav */,
+				383BA0F12644DBEA0042A6A8 /* 02.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		384915C72640ED47006BA17D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				381E3C69263F4047006B035C /* LogInViewController.swift */,
 				384915C82640EDFF006BA17D /* SignUpViewController.swift */,
+				3849163C2643AE39006BA17D /* SectorsTableViewController.swift */,
+				383BA0DE2643C1E90042A6A8 /* RoadsTableViewController.swift */,
+				383BA0E02643C1F90042A6A8 /* FavoritesTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		384915CE26432CBA006BA17D /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				384915CF26432CCE006BA17D /* DbContext.swift */,
+				384915E226433010006BA17D /* SectorDAO.swift */,
+				384915E426439107006BA17D /* FavoriteDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		384915D126432F71006BA17D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				383BA0F72644DCD90042A6A8 /* Favorite+CoreDataClass.swift */,
+				383BA0F52644DCD90042A6A8 /* Favorite+CoreDataProperties.swift */,
+				383BA0F42644DCD90042A6A8 /* Road+CoreDataClass.swift */,
+				383BA0F32644DCD90042A6A8 /* Road+CoreDataProperties.swift */,
+				383BA0F62644DCD90042A6A8 /* Sector+CoreDataClass.swift */,
+				383BA0F82644DCD90042A6A8 /* Sector+CoreDataProperties.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		6EE48BFDFEA49531FC208B8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				383BA0E626446C620042A6A8 /* AVFoundation.framework */,
 				6EF495108FCFC3552615303B /* libPods-Devoir2.a */,
 			);
 			name = Frameworks;
@@ -169,6 +239,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383BA0F22644DBEA0042A6A8 /* 02.wav in Resources */,
+				383BA0F02644DBDC0042A6A8 /* 01.wav in Resources */,
 				381E3C75263F4049006B035C /* LaunchScreen.storyboard in Resources */,
 				381E3C72263F4049006B035C /* Assets.xcassets in Resources */,
 				384915CB26424BDE006BA17D /* Podfile in Resources */,
@@ -209,9 +281,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				381E3C6A263F4047006B035C /* LogInViewController.swift in Sources */,
+				383BA0E12643C1F90042A6A8 /* FavoritesTableViewController.swift in Sources */,
 				384915CD2642512E006BA17D /* UTIL.swift in Sources */,
+				383BA0FE2644DCD90042A6A8 /* Sector+CoreDataProperties.swift in Sources */,
+				384915E526439107006BA17D /* FavoriteDAO.swift in Sources */,
+				383BA0DF2643C1E90042A6A8 /* RoadsTableViewController.swift in Sources */,
+				383BA0FA2644DCD90042A6A8 /* Road+CoreDataClass.swift in Sources */,
+				384915E326433010006BA17D /* SectorDAO.swift in Sources */,
 				381E3C66263F4047006B035C /* AppDelegate.swift in Sources */,
+				383BA0F92644DCD90042A6A8 /* Road+CoreDataProperties.swift in Sources */,
+				383BA0FC2644DCD90042A6A8 /* Sector+CoreDataClass.swift in Sources */,
 				381E3C68263F4047006B035C /* SceneDelegate.swift in Sources */,
+				384915D026432CCE006BA17D /* DbContext.swift in Sources */,
+				383BA0FD2644DCD90042A6A8 /* Favorite+CoreDataClass.swift in Sources */,
+				383BA0FB2644DCD90042A6A8 /* Favorite+CoreDataProperties.swift in Sources */,
+				3849163D2643AE39006BA17D /* SectorsTableViewController.swift in Sources */,
 				381E3C70263F4047006B035C /* Devoir2.xcdatamodeld in Sources */,
 				384915C92640EDFF006BA17D /* SignUpViewController.swift in Sources */,
 			);

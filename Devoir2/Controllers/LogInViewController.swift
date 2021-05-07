@@ -72,7 +72,11 @@ class LogInViewController: UIViewController {
         sema.wait()
         if (connectedUser != "") {
             performSegue(withIdentifier: "toTabBar", sender: nil)
+            return
         }
+        let alert = UIAlertController(title: "Incorrect credentials", message: "Email or password is incorrect", preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
 }
 
